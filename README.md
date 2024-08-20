@@ -7,6 +7,18 @@ Este projeto é um teste de desenvolvimento de um aplicativo. O aplicativo foi d
 - Exibição de saldo
 - Botão de exibir/ocultar saldo
 
+=======
+## Comandos para disponibilizar para web
+- No diretorio do projeto
+- $ flutter config --enable-web
+- $ flutter build web
+- sera gerado uma pasta web no diretorio build => build/web
+### Publicar na web
+- Publicar no netlify
+- acesse: Add new site -> Deploy manually
+- faça o upload da pasta bulid/web do projeto flutter
+
+
 
 =======
 ## Setup para Teste
