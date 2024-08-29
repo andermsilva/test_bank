@@ -25,6 +25,7 @@ class MyHomePage extends StatefulWidget {
 
   final String title;
   final String _msg = "Saldo Insuficiente";
+
   @override
   State<MyHomePage> createState() => _MyHomePageState();
 }
@@ -39,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
       if (valor <= _money) {
         _money -= valor;
       } else {
-        _msg = "Saldo Insuficiente";
+        _msg = "Saldo Insuficiente...";
       }
     });
   }
